@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% block title %}
+{% if object %}
 Edycja treści "{{object.title}}"
 {% else %}
 Dodanie nowej treści
